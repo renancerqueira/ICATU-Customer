@@ -1,0 +1,235 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "API desenvolvida como um desafio para avançar no processo de seleção da ICATU. Esta API tem o objetivo de disponibilizar o CRUD de clientes e o CRUD de Endereços.",
+    "version" : "1.0.0",
+    "title" : "ICATU - API Clientes",
+    "contact" : {
+      "name" : "Renan Cerqueira",
+      "email" : "renancerqueira@gmail.com"
+    },
+    "license" : {
+      "name" : "MIT License",
+      "url" : "https://www.tldrlegal.com/l/mit"
+    }
+  },
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/RC-Systems/ICATU-Costumer/1.0.0",
+  "tags" : [ {
+    "name" : "users",
+    "description" : "Operações CRUD permitidas nos registros"
+  } ],
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/clientes" : {
+      "get" : {
+        "tags" : [ "users" ],
+        "summary" : "Retorna os dados dos clientes",
+        "description" : "Retorna os dados dos clientes pelo Id ou pelo nome",
+        "operationId" : "read",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "search",
+          "in" : "path",
+          "description" : "Passeo Id do cliente desejado para retornar seus dados. Passe o nome completo, ou parte dele, para retornar todos os clientes que correspondem.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "page",
+          "in" : "query",
+          "description" : "Paginação - Número da página desejada",
+          "required" : false,
+          "type" : "integer"
+        }, {
+          "name" : "length",
+          "in" : "query",
+          "description" : "Paginação - Número da quantidade de registros desejados na página",
+          "required" : false,
+          "type" : "integer"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Clientes encontrados",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/Cliente"
+              }
+            }
+          },
+          "404" : {
+            "description" : "Nenhum cliente encontrado"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "users" ],
+        "summary" : "Cadastrar clientes",
+        "description" : "Cadastra um novo cliente no banco de dados",
+        "operationId" : "create",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "Cliente",
+          "description" : "Objeto do tipo 'Cliente' a ser cadastrado",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/Cliente"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "Cliente cadastrado com sucesso"
+          },
+          "404" : {
+            "description" : "Objeto inválido. Verifique os dados enviados."
+          },
+          "409" : {
+            "description" : "Este cliente já se encontra cadastrado em nosso banco de dados"
+          }
+        }
+      },
+      "put" : {
+        "tags" : [ "users" ],
+        "summary" : "Atualizar clientes",
+        "description" : "Atualiza os dados desejados de um cliente",
+        "operationId" : "update",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "Cliente",
+          "description" : "Objeto do tipo 'Cliente' com os dados a serem atualizados",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/Cliente"
+          }
+        } ],
+        "responses" : {
+          "204" : {
+            "description" : "Cliente atualizado com sucesso"
+          },
+          "404" : {
+            "description" : "Nenhum cliente encontrado"
+          }
+        }
+      },
+      "delete" : {
+        "tags" : [ "users" ],
+        "summary" : "Deletar clientes",
+        "description" : "Deleta um cliente pelo seu Id",
+        "operationId" : "delete",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "Id",
+          "in" : "path",
+          "description" : "Id do cliente a ser deletado",
+          "required" : true,
+          "type" : "string",
+          "format" : "uuid"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Cliente deletado com sucesso"
+          },
+          "404" : {
+            "description" : "Nenhum cliente encontrado"
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Cliente" : {
+      "type" : "object",
+      "required" : [ "cpf", "endereco", "id", "idade", "nome" ],
+      "properties" : {
+        "id" : {
+          "type" : "string",
+          "format" : "uuid",
+          "example" : "d290f1ee-6c54-4b01-90e6-d701748f0851"
+        },
+        "nome" : {
+          "type" : "string",
+          "example" : "Maria José"
+        },
+        "idade" : {
+          "type" : "integer",
+          "example" : 31
+        },
+        "cadastradoEm" : {
+          "type" : "string",
+          "format" : "date-time",
+          "example" : "2019-06-21T13:47:28"
+        },
+        "cpf" : {
+          "$ref" : "#/definitions/CPF"
+        },
+        "endereco" : {
+          "$ref" : "#/definitions/Endereco"
+        }
+      },
+      "example" : {
+        "idade" : 31,
+        "endereco" : {
+          "cidade" : "Rio de Janeiro",
+          "estado" : "Rio de Janeiro",
+          "logradouro" : "Praça Vinte e Dois de Abril, 36",
+          "bairro" : "Centro"
+        },
+        "cpf" : {
+          "numero" : "12345678911"
+        },
+        "nome" : "Maria José",
+        "id" : "d290f1ee-6c54-4b01-90e6-d701748f0851",
+        "cadastradoEm" : "2019-06-21T13:47:28"
+      }
+    },
+    "CPF" : {
+      "required" : [ "numero" ],
+      "properties" : {
+        "numero" : {
+          "type" : "string",
+          "example" : "12345678911",
+          "pattern" : "^\\d{11}$"
+        }
+      },
+      "example" : {
+        "numero" : "12345678911"
+      }
+    },
+    "Endereco" : {
+      "required" : [ "bairro", "cidade", "estado", "logradouro" ],
+      "properties" : {
+        "logradouro" : {
+          "type" : "string",
+          "example" : "Praça Vinte e Dois de Abril, 36",
+          "maxLength" : 50
+        },
+        "bairro" : {
+          "type" : "string",
+          "example" : "Centro",
+          "maxLength" : 40
+        },
+        "cidade" : {
+          "type" : "string",
+          "example" : "Rio de Janeiro",
+          "maxLength" : 40
+        },
+        "estado" : {
+          "type" : "string",
+          "example" : "Rio de Janeiro",
+          "maxLength" : 40
+        }
+      },
+      "example" : {
+        "cidade" : "Rio de Janeiro",
+        "estado" : "Rio de Janeiro",
+        "logradouro" : "Praça Vinte e Dois de Abril, 36",
+        "bairro" : "Centro"
+      }
+    }
+  }
+}
