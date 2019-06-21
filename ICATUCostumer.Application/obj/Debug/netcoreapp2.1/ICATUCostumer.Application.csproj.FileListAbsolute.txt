@@ -1,0 +1,6 @@
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Application/obj/Debug/netcoreapp2.1/ICATUCostumer.Application.csprojAssemblyReference.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Application/obj/Debug/netcoreapp2.1/ICATUCostumer.Application.csproj.CoreCompileInputs.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Application/obj/Debug/netcoreapp2.1/ICATUCostumer.Application.RazorAssemblyInfo.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Application/obj/Debug/netcoreapp2.1/ICATUCostumer.Application.RazorAssemblyInfo.cs
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Application/obj/Debug/netcoreapp2.1/ICATUCostumer.Application.AssemblyInfoInputs.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Application/obj/Debug/netcoreapp2.1/ICATUCostumer.Application.AssemblyInfo.cs

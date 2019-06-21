@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{A901DD83-390E-4EA8-8B77-B4474B7D18D0}|Default">
+  <MonoDevelop.Ide.ItemProperties.1_220-_220Application.ICATUCostumer.Application PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.4_220-_220Infra.ICATUCostumer.Infra.Data FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ICATUCostumer.Application/Controllers/ClientesController.cs">
+    <Files>
+      <File FileName="ICATUCostumer.Application/Startup.cs" Line="57" Column="1" />
+      <File FileName="ICATUCostumer.Application/Controllers/ClientesController.cs" Line="42" Column="67" />
+      <File FileName="ICATUCostumer.Service/ClientesService.cs" Line="35" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ICATUCostumer" expanded="True">
+            <Node name="1 - Application" expanded="True">
+              <Node name="ICATUCostumer.Application" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="2 - Domain" expanded="True">
+              <Node name="ICATUCostumer.Domain" expanded="True">
+                <Node name="Model" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="3 - Service" expanded="True">
+              <Node name="ICATUCostumer.Service" expanded="True" />
+            </Node>
+            <Node name="4 - Infra" expanded="True">
+              <Node name="ICATUCostumer.Infra.Data" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

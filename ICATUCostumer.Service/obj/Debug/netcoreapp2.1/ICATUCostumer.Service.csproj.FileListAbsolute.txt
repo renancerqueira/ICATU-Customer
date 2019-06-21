@@ -1,0 +1,9 @@
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/bin/Debug/netcoreapp2.1/ICATUCostumer.Service.deps.json
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/bin/Debug/netcoreapp2.1/ICATUCostumer.Service.dll
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/bin/Debug/netcoreapp2.1/ICATUCostumer.Service.pdb
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.csprojAssemblyReference.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.csproj.CoreCompileInputs.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.AssemblyInfoInputs.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.AssemblyInfo.cs
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.dll
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.pdb

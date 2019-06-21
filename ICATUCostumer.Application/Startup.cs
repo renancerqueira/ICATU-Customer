@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace ICATUCostumer.Application
 {
@@ -26,6 +27,17 @@ namespace ICATUCostumer.Application
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddSwaggerGen(c =>
+            {
+                var basePath = AppContext.BaseDirectory;
+                var assemblyName = System.Reflection.Assembly.GetEntryAssembly().GetName().Name;
+                var fileName = System.IO.Path.GetFileName(assemblyName + ".xml");
+
+                //Set the comments path for the swagger json and ui.
+                c.IncludeXmlComments(System.IO.Path.Combine(basePath, fileName));
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +54,13 @@ namespace ICATUCostumer.Application
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            // Ativando middlewares para uso do Swagger
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json","");
+            });
         }
     }
 }
