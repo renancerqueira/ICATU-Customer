@@ -1,0 +1,9 @@
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Infra.Data/obj/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.csprojAssemblyReference.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Infra.Data/obj/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.csproj.CoreCompileInputs.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Infra.Data/obj/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.AssemblyInfoInputs.cache
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Infra.Data/obj/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.AssemblyInfo.cs
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Infra.Data/bin/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.deps.json
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Infra.Data/bin/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.dll
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Infra.Data/bin/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.pdb
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Infra.Data/obj/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.dll
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Infra.Data/obj/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.pdb

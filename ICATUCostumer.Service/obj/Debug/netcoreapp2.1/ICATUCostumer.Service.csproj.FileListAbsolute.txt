@@ -7,3 +7,8 @@
 /Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.AssemblyInfo.cs
 /Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.dll
 /Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.pdb
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/bin/Debug/netcoreapp2.1/ICATUCostumer.Domain.dll
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/bin/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.dll
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/bin/Debug/netcoreapp2.1/ICATUCostumer.Domain.pdb
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/bin/Debug/netcoreapp2.1/ICATUCostumer.Infra.Data.pdb
+/Users/renancerqueira/Documents/GitHub/ICATU-Customer/ICATUCostumer.Service/obj/Debug/netcoreapp2.1/ICATUCostumer.Service.csproj.CopyComplete

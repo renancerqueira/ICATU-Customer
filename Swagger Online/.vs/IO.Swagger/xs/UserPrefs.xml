@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{16D16B7A-7B40-4430-A071-B782D75834B4}|Default">
   <MonoDevelop.Ide.ItemProperties.IO.Swagger PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/IO.Swagger/Models/Endereco.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/IO.Swagger/Controllers/UsersApi.cs">
     <Files>
-      <File FileName="src/IO.Swagger/Controllers/UsersApi.cs" Line="45" Column="37" />
+      <File FileName="src/IO.Swagger/Controllers/UsersApi.cs" Line="115" Column="1" />
       <File FileName="src/IO.Swagger/Models/Cliente.cs" Line="193" Column="29" />
       <File FileName="src/IO.Swagger/Models/CPF.cs" Line="24" Column="5" />
       <File FileName="src/IO.Swagger/Models/Endereco.cs" Line="24" Column="5" />
@@ -12,10 +12,10 @@
         <State name="__root__">
           <Node name="IO.Swagger" expanded="True">
             <Node name="IO.Swagger" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Endereco.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="UsersApi.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>

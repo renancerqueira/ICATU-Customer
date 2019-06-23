@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LiteDB" Version="4.1.4" />
+    <PackageReference Include="Dapper.SimpleCRUD" Version="2.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\" />
+    <Folder Include="Mapping\" />
   </ItemGroup>
 </Project>

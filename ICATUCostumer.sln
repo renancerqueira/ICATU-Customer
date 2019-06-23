@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICATUCostumer.Service", "ICATUCostumer.Service\ICATUCostumer.Service.csproj", "{40785F47-7BD1-46DD-9E6D-68D163248EB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICATUCostumer.Domain", "ICATUCostumer.Domain\ICATUCostumer.Domain\ICATUCostumer.Domain.csproj", "{D8813A32-B117-402E-9FAD-B62DCF695A31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICATUCostumer.Domain", "ICATUCostumer.Domain\ICATUCostumer.Domain.csproj", "{D8813A32-B117-402E-9FAD-B62DCF695A31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICATUCostumer.Infra.Data", "ICATUCostumer.Infra.Data\ICATUCostumer.Infra.Data.csproj", "{3AE80C20-1363-4442-8BF0-702C6E9B8CDB}"
 EndProject

@@ -1,43 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
+using AutoMapper;
 using ICATUCostumer.Domain.Model;
+using ICATUCostumer.Infra.Data.Mapping;
+using ICATUCostumer.Infra.Data.Repository;
 
 namespace ICATUCostumer.Service
 {
-    public class ClientesService
+    public class ClientesService : BaseService<ClientesRepository>
     {
-        public ClientesService()
+        public IList<ClienteModel> Get(int page = 1, int length = 10, string containsName = "")
         {
+            var list = repository.Get(page, length, $"Nome like '%{containsName}%'");
+            return Mapper.Map<IList<ClienteModel>>(list);
         }
 
-        public List<ClienteModel> Search(string search, int? page = null, int? length = null)
+        public Guid Insert(ClienteModel model)
         {
-            return new List<ClienteModel>();
-        }
+            var entry = Mapper.Map<Cliente>(model);
+            entry.Id = new Guid();
 
-        public ClienteModel Get(Guid id)
-        {
-            return new ClienteModel();
-        }
+            repository.Insert(entry);
 
-        public bool Any(Guid id)
-        {
-            return true;
-        }
-
-        public Guid Insert(ClienteModel cliente)
-        {
-            return new Guid();
-        }
-
-        public void Update(ClienteModel cliente)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Guid id)
-        {
-            throw new NotImplementedException();
+            return entry.Id;
         }
     }
 }

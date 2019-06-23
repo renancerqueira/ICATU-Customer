@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 using ICATUCostumer.Domain.Model;
 using ICATUCostumer.Service;
 using Microsoft.AspNetCore.Mvc;
@@ -33,16 +31,16 @@ namespace ICATUCostumer.Application.Controllers
         /// <response code="200">Clientes encontrados</response>
         /// <response code="404">Nenhum cliente encontrado</response>
         [HttpGet("{search}")]
-        public ActionResult<List<ClienteModel>> Read([FromRoute][Required]string search, [FromQuery]int page, [FromQuery]int length)
+        public ActionResult<IList<ClienteModel>> Read([FromRoute][Required]string search, [FromQuery]int page, [FromQuery]int length)
         {
             Guid id;
 
             if (Guid.TryParse(search, out id))
             {
-                return new List<ClienteModel> { service.Get(id) };
+                return Ok(new List<ClienteModel> { service.Get<ClienteModel>(id) });
             }
 
-            return service.Search(search, page, length);
+            return Ok(service.Get(page, length, search));
         }
 
         /// <summary>

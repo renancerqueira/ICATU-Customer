@@ -8,6 +8,10 @@
     <Compile Remove="Class1.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ICATUCostumer.Domain\ICATUCostumer.Domain\ICATUCostumer.Domain.csproj" />
+    <ProjectReference Include="..\ICATUCostumer.Domain\ICATUCostumer.Domain.csproj" />
+    <ProjectReference Include="..\ICATUCostumer.Infra.Data\ICATUCostumer.Infra.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
   </ItemGroup>
 </Project>
