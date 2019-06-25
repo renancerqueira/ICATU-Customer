@@ -1,0 +1,8 @@
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Infra.Data\bin\Debug\ICATU.Infra.Data.dll.config
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Infra.Data\bin\Debug\ICATU.Infra.Data.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Infra.Data\bin\Debug\ICATU.Infra.Data.pdb
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Infra.Data\bin\Debug\Dapper.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Infra.Data\bin\Debug\Dapper.xml
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Infra.Data\obj\Debug\ICATU.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Infra.Data\obj\Debug\ICATU.Infra.Data.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Infra.Data\obj\Debug\ICATU.Infra.Data.pdb

@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICATUCostumer.Application", "ICATUCostumer.Application\ICATUCostumer.Application.csproj", "{A901DD83-390E-4EA8-8B77-B4474B7D18D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{11A4970A-1B79-4816-BD56-D16981A834A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{DB358723-F856-43BD-BE1D-29B74E1DF81A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{B73B0A97-3797-4036-86A1-7F1F42B81208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{75893A62-F21D-4BF2-8B55-CD08A8B6AF2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICATUCostumer.Service", "ICATUCostumer.Service\ICATUCostumer.Service.csproj", "{40785F47-7BD1-46DD-9E6D-68D163248EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICATUCostumer.Domain", "ICATUCostumer.Domain\ICATUCostumer.Domain.csproj", "{D8813A32-B117-402E-9FAD-B62DCF695A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICATUCostumer.Infra.Data", "ICATUCostumer.Infra.Data\ICATUCostumer.Infra.Data.csproj", "{3AE80C20-1363-4442-8BF0-702C6E9B8CDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A901DD83-390E-4EA8-8B77-B4474B7D18D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A901DD83-390E-4EA8-8B77-B4474B7D18D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A901DD83-390E-4EA8-8B77-B4474B7D18D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A901DD83-390E-4EA8-8B77-B4474B7D18D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40785F47-7BD1-46DD-9E6D-68D163248EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40785F47-7BD1-46DD-9E6D-68D163248EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40785F47-7BD1-46DD-9E6D-68D163248EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40785F47-7BD1-46DD-9E6D-68D163248EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8813A32-B117-402E-9FAD-B62DCF695A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8813A32-B117-402E-9FAD-B62DCF695A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8813A32-B117-402E-9FAD-B62DCF695A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8813A32-B117-402E-9FAD-B62DCF695A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE80C20-1363-4442-8BF0-702C6E9B8CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE80C20-1363-4442-8BF0-702C6E9B8CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE80C20-1363-4442-8BF0-702C6E9B8CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE80C20-1363-4442-8BF0-702C6E9B8CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A901DD83-390E-4EA8-8B77-B4474B7D18D0} = {11A4970A-1B79-4816-BD56-D16981A834A7}
+		{40785F47-7BD1-46DD-9E6D-68D163248EB2} = {B73B0A97-3797-4036-86A1-7F1F42B81208}
+		{D8813A32-B117-402E-9FAD-B62DCF695A31} = {DB358723-F856-43BD-BE1D-29B74E1DF81A}
+		{3AE80C20-1363-4442-8BF0-702C6E9B8CDB} = {75893A62-F21D-4BF2-8B55-CD08A8B6AF2B}
+	EndGlobalSection
+EndGlobal

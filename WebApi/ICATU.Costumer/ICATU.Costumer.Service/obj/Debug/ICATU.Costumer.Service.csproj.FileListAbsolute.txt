@@ -1,0 +1,16 @@
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\ICATU.Costumer.Service.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\ICATU.Costumer.Service.pdb
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\AutoMapper.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\ICATU.Costumer.Domain.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\ICATU.Infra.Data.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\System.ValueTuple.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\Dapper.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\ICATU.Costumer.Domain.pdb
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\ICATU.Infra.Data.pdb
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\AutoMapper.pdb
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\AutoMapper.xml
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\System.ValueTuple.xml
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\bin\Debug\Dapper.xml
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\obj\Debug\ICATU.Costumer.Service.csprojResolveAssemblyReference.cache
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\obj\Debug\ICATU.Costumer.Service.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Service\obj\Debug\ICATU.Costumer.Service.pdb

@@ -1,0 +1,5 @@
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Domain\bin\Debug\ICATU.Costumer.Domain.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Domain\bin\Debug\ICATU.Costumer.Domain.pdb
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Domain\obj\Debug\ICATU.Costumer.Domain.csprojResolveAssemblyReference.cache
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Domain\obj\Debug\ICATU.Costumer.Domain.dll
+C:\Users\renan.cerqueira\documents\visual studio 2015\Projects\ICATU.Costumer\ICATU.Costumer.Domain\obj\Debug\ICATU.Costumer.Domain.pdb
